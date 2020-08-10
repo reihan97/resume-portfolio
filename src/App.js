@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import data from "./data.json";
+import { SocialIcon } from "react-social-icons";
+import Fullpage from "./components/Fullpage/Fullpage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="navigation" />
+
+        <Fullpage className="first">
+          <h1 className="title">{data.title}</h1>
+          <h2>{data.subtitle}</h2>
+       
+          <div className="soicalIcons">
+          {Object.keys(data.links).map((key) => {
+            return  (<SocialIcon url={data.links[key]}  />)
+          })
+         }
+           </div>
+        </Fullpage>
+
+        <div className="fullpage" />
+        <h3>{data.sections[0].title}</h3>
+        <p>{data.sections[0].items[0].content}</p>
+        <div className="fullpage" />
+      </div>
+    );
+  }
 }
 
 export default App;
