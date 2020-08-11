@@ -1,3 +1,54 @@
-.first{
-    background-color: cadetblue;
+.first {
+  background-color: #eebb4d;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.first h1,
+h2 {
+  letter-spacing: 2px;
+}
+.socialIcons {
+  display: flex;
+  margin-top: 75px;;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+/* .socialIcons path:hover {
+  animation: danceIcon 1s ease-in-out infinite alternate;
+} */
+/* 
+@keyframes danceIcon {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  } */
+/* } */
+.secondPart {
+  height: 63vh;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.scrollIcon{
+  width: 30px;
+  height: 30px;
+  animation: danceScroll 1s infinite alternate ;
+  align-self: center;
+  cursor: pointer;
+  align-content: flex-end;
+  margin-bottom: -143px;
+
+}
+@keyframes danceScroll{
+  0%{
+    transform: scaleX(1) scaleY(1);
+  }
+  100%{
+    transform: scaleX(1.5) scaleY(1.5);
+  }
 }

@@ -8,11 +8,11 @@
   },
   "sections": [
     {
-      "title": "About",
+      "title": "About Me",
       "items": [
         {
           "type": "p",
-          "content": "lalaaa",
+          "content": "I love creating and learning! I started my journey to programming since winter of 2019 and I decided to go on, no matter what, no matter how difficult it may seem like to me, I am passionate about it and won't let it go!",
           "image": "https://img.icons8.com/pastel-glyph/50/000000/user-female--v1.png"
         }
       ]

@@ -1,3 +1,106 @@
-.third{
-    background-color: burlywood;
+.third {
+  background-color: #f5f1da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#skills .imgCard {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin: 10px;
+  
+}
+.card {
+  border: solid 2px black;
+  margin: 5px;
+  width: 130px;
+  border-radius: 15px;
+  align-self: center;
+  cursor: default;
+}
+.card:hover{
+    animation-name: rainbow;
+    animation-duration: 2.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#skills {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+}
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 40vw;
+  height: 50vh;
+  margin-bottom: 80px;
+}
+.skillsH{
+  justify-content: center;
+  justify-self: center;
+  font-size: 50px;
+  animation-name: rainbowHeader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.heartIcon{
+  width: 15px ;
+  height: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+h6{
+  align-self: flex-start;
+  transform : rotate(-90deg);
+  margin-left: -45px;
+}
+
+@keyframes rainbowHeader {
+  0% {
+    color: aquamarine;
+  }
+  35% {
+    color: teal;
+  }
+  60% {
+    color: brown;
+  }
+  70% {
+    color: forestgreen;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    border: solid 2px aquamarine;
+  }
+  20% {
+    border: solid 2px seagreen;
+  }
+  40% {
+    border: solid 2px teal;
+  }
+  60% {
+    border: solid 2px tomato;
+  }
+  75% {
+    border: solid 2px yellow;
+  }
+  85% {
+    border: solid 2px paleturquoise;
+  }
+  100% {
+    border: solid 2px lightgrey;
+  }
 }

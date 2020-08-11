@@ -1,55 +1,54 @@
 {
-    "title": "Hello, I'm Reihan!",
-    "subtitle": "Front-end developer | Translator",
-    "links": {
-      "github": "https://github.com/reihan97",
-      "linkedin": "https://www.linkedin.com/in/reihanehsadatzahraee/",
-      "codepen": "https://codepen.io/reihan"
+  "title": "Hello, I'm Reihan!",
+  "subtitle": "Front-end developer | Translator",
+  "links": {
+    "github": "https://github.com/reihan97",
+    "linkedin": "https://www.linkedin.com/in/reihanehsadatzahraee/",
+    "codepen": "https://codepen.io/reihan"
+  },
+  "sections": [
+    {
+      "title": "About Me",
+      "items": [
+        {
+          "type": "p",
+          "content": "I love creating and learning! I started my journey to programming since winter of 2019 and I decided to go on, no matter what, no matter how difficult it may seem like to me, I am passionate about it and won't let it go!",
+          "image": "https://img.icons8.com/pastel-glyph/50/000000/user-female--v1.png"
+        }
+      ]
     },
-    "sections": [
-      {
-        "title": "About",
-        "items": [
-          {
-            "type": "p",
-            "content": "lalaaa",
-            "image": "https://img.icons8.com/pastel-glyph/50/000000/user-female--v1.png"
+    {
+      "title": "Skills And Portfolio",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "https://img.icons8.com/ios/50/000000/javascript.png",
+            "title": "JavaScript"
           }
-        ]
-      },
-      {
-        "title": "Skills And Portfolio",
-        "items": [
-          {
-            "type": "card",
-            "content": {
-              "image": "https://img.icons8.com/ios/50/000000/javascript.png",
-              "title": "JavaScript"
-            }
-          },
-          {
-            "type": "card",
-            "content": {
-              "image": "https://img.icons8.com/carbon-copy/100/000000/react.png",
-              "title": "ReactJs"
-            }
-          },
-          {
-            "type": "card",
-            "content": {
-              "image": "https://img.icons8.com/ios/50/000000/css.png",
-              "title": "CSS"
-            }
-          },
-          {
-            "type": "card",
-            "content": {
-              "image": "https://img.icons8.com/ios/50/000000/html.png",
-              "title": "HTML"
-            }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "https://img.icons8.com/carbon-copy/100/000000/react.png",
+            "title": "ReactJs"
           }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "https://img.icons8.com/ios/50/000000/css.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "https://img.icons8.com/ios/50/000000/html.png",
+            "title": "HTML"
+          }
+        }
+      ]
+    }
+  ]
+}

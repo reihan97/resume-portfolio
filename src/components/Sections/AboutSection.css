@@ -1,3 +1,41 @@
-.second{
-    background-color: blueviolet;
+#about {
+  background-color: #96bb7c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.userPng {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-right: 25px;
+  bottom: 0px;
+  animation: danceUser 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes danceUser {
+  0% {
+    transform: rotate3d(2, 2, 3, 20deg);
+  }
+  100% {
+    transform: rotate3d(2, 2, 3, -20deg);
+  }
+}
+.second h3 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+.second p {
+  width: 35vw;
+  height: 25vh;
+  text-align: justify;
+  align-self: center;
+  font-size: 25px;
+  text-indent: 2em;
+}
+.second p::first-letter {
+  font-size: 40px;
 }

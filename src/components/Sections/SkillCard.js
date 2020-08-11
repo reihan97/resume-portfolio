@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './SkillsSection.css';
 
 export default class SkillCard extends Component {
 
@@ -8,7 +8,7 @@ export default class SkillCard extends Component {
         return(
             <div className="card">
                 <div className="image-wrapper">
-                  <img src={skill.content.image} alt={skill.content.title} />
+                  <img src={skill.content.image} alt={skill.content.title} className="imgCard"/>
                 </div>
 
                 <div className="skill-title-wrapper">
