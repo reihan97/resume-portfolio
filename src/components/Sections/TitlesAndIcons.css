@@ -34,16 +34,7 @@ h2 {
   align-content: center;
   align-self: center;
 }
-.scrollIcon{
-  width: 30px;
-  height: 30px;
-  animation: danceScroll 1s infinite alternate ;
-  align-self: center;
-  cursor: pointer;
-  align-content: flex-end;
-  margin-bottom: -143px;
 
-}
 @keyframes danceScroll{
   0%{
     transform: scaleX(1) scaleY(1);
