@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./AboutSection.css";
 
 class DownIcon extends React.Component{
 
@@ -12,8 +12,6 @@ class DownIcon extends React.Component{
                 }}>
                 <img 
                 style={{
-                    width: "30px",
-                    height: "30px",
                     animation: "danceScroll 1s infinite alternate" ,
                     alignSelf: "center",
                     cursor: "pointer",

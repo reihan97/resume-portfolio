@@ -48,15 +48,7 @@ export default class SkillsSection extends Component {
             })}
           </div>
         </div>
-        <h6>
-          Made with{" "}
-          <img
-            className="heartIcon"
-            src="https://img.icons8.com/wired/64/000000/like.png"
-            alt="heart icon"
-          />{" "}
-          by Reihan, 2020
-        </h6>
+
         <DownIcon marginBottom={"50px0"} yCoord={0} icon={data.icon.src2} />
       </Fullpage>
     );
