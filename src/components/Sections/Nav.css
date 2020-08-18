@@ -20,7 +20,7 @@
   height: 50px;
   cursor: pointer;
 /*   opacity: 70%; */
-  transition: opacity 0.5s linear;
+/*   transition: opacity 0.5s linear; */
   order: 2;
   flex-grow: 1;
   
