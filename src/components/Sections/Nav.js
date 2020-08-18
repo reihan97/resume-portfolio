@@ -26,7 +26,8 @@ export default class Nav extends React.Component {
       <div className="navSection" id="navSec">
         <div className="colorful" onClick={this.props.onClick}>
           <img
-            src="https://img.icons8.com/pastel-glyph/64/000000/paint-palette.png"
+            // src="https://img.icons8.com/pastel-glyph/64/000000/paint-palette.png"
+            src="https://img.icons8.com/ios/50/000000/border-color.png"
             alt="change the pallet"
           />
         </div>
@@ -46,9 +47,10 @@ export default class Nav extends React.Component {
             className="colesbtn"
             onClick={this.closeContact}
             ref={this.closeIt}
-          > Close
+          >
+            {" "}
+            Close
             {/* <img src="https://img.icons8.com/ios-glyphs/30/000000/macos-close.png" alt="close Icon"/> */}
-        
           </button>
 
           <div className="overlay-content">
