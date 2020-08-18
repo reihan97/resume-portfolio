@@ -41,6 +41,10 @@ class Fullpage extends Component {
             <div className="snowflake">•</div>
             <div className="snowflake">•</div>
             <div className="snowflake">•</div>
+            <div className="snowflake">•</div>
+            <div className="snowflake">•</div>
+            <div className="snowflake">•</div>
+            <div className="snowflake">•</div>
           </div>
         </div>
       </div>
