@@ -12,6 +12,7 @@
   height: 42px;
   animation: danceUser 1.5s ease-in-out infinite;
   animation-direction: alternate;
+  opacity: 100%;
 }
 .colorful {
   width: 50px;
